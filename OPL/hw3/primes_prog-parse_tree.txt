@@ -1,0 +1,114 @@
+PT_nt
+ ("P",
+  [PT_nt
+    ("SL",
+     [PT_nt ("S", [PT_term "read"; PT_id "n"]);
+      PT_nt
+       ("SL",
+        [PT_nt
+          ("S",
+           [PT_id "cp"; PT_term ":=";
+            PT_nt
+             ("E",
+              [PT_nt ("T", [PT_nt ("F", [PT_num "2"]); PT_nt ("FT", [])]);
+               PT_nt ("TT", [])])]);
+         PT_nt
+          ("SL",
+           [PT_nt
+             ("S",
+              [PT_term "do";
+               PT_nt
+                ("SL",
+                 [PT_nt
+                   ("S",
+                    [PT_term "check";
+                     PT_nt
+                      ("R",
+                       [PT_nt
+                         ("E",
+                          [PT_nt
+                            ("T",
+                             [PT_nt ("F", [PT_id "n"]); PT_nt ("FT", [])]);
+                           PT_nt ("TT", [])]);
+                        PT_nt
+                         ("ET",
+                          [PT_nt ("ro", [PT_term ">"]);
+                           PT_nt
+                            ("E",
+                             [PT_nt
+                               ("T",
+                                [PT_nt ("F", [PT_num "0"]); PT_nt ("FT", [])]);
+                              PT_nt ("TT", [])])])])]);
+                  PT_nt
+                   ("SL",
+                    [PT_nt
+                      ("S",
+                       [PT_id "found"; PT_term ":=";
+                        PT_nt
+                         ("E",
+                          [PT_nt
+                            ("T",
+                             [PT_nt ("F", [PT_num "0"]); PT_nt ("FT", [])]);
+                           PT_nt ("TT", [])])]);
+                     PT_nt
+                      ("SL",
+                       [PT_nt
+                         ("S",
+                          [PT_id "cf1"; PT_term ":=";
+                           PT_nt
+                            ("E",
+                             [PT_nt
+                               ("T",
+                                [PT_nt ("F", [PT_num "2"]); PT_nt ("FT", [])]);
+                              PT_nt ("TT", [])])]);
+                        PT_nt
+                         ("SL",
+                          [PT_nt
+                            ("S",
+                             [PT_id "cf1s"; PT_term ":=";
+                              PT_nt
+                               ("E",
+                                [PT_nt
+                                  ("T",
+                                   [PT_nt ("F", [PT_id "cf1"]);
+                                    PT_nt
+                                     ("FT",
+                                      [PT_nt ("mo", [PT_term "*"]);
+                                       PT_nt ("F", [PT_id "cf1"]);
+                                       PT_nt ("FT", [])])]);
+                                 PT_nt ("TT", [])])]);
+                           PT_nt
+                            ("SL",
+                             [PT_nt
+                               ("S",
+                                [PT_term "do";
+                                 PT_nt
+                                  ("SL",
+                                   [PT_nt
+                                     ("S",
+                                      [PT_term "check";
+                                       PT_nt
+                                        ("R",
+                                         [PT_nt
+                                           ("E",
+                                            [PT_nt
+                                              ("T",
+                                               [PT_nt ("F", [PT_id "cf1s"]);
+                                                PT_nt ("FT", [])]);
+                                             PT_nt ("TT", [])]);
+                                          PT_nt
+                                           ("ET", [PT_nt ("ro", [...]); ...]);
+                                          ...]);
+                                       ...]);
+                                    ...]);
+                                 ...]);
+                              ...]);
+                           ...]);
+                        ...]);
+                     ...]);
+                  ...]);
+               ...]);
+            ...]);
+         ...]);
+      ...]);
+   ...])

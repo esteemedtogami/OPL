@@ -1,0 +1,70 @@
+V "GNAT Lib v6"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U test_combinations%b	ada_ver.ada		ae37244a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20151118101227 4be8ce1b interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20151123113124 6326c08a system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D ada_ver.ada		20180207001037 6011583a test_combinations%b
+X 1 ada.ads
+16K9*Ada 19e8 25|1r6 1r45 2r6 2r41
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 25|2w10 2r45
+X 7 a-textio.ads
+49K13*Text_IO 471e16 25|1w10 1r49
+166U14*New_Line 25|57s16
+242U14*Put 25|38s13
+X 25 ada_ver.ada
+4U11*Test_Combinations 4b11 63l5 63t22
+6I12 Integers 8r56 17r19 25r24 25r38 25r52 38r18
+7k12 Combinations 6z12 12l8 12e20 14b17 41l8 41t20 46r27
+8A12*Combination(6I12)<integer> 9r35 10r34 11r26 15r35 22r34 35r26 49r8[46]
+9U17*First 9=24 15b17 21l11 21t16 55s4[46]
+9a24 X{8A12} 15b24 17m10 18r22 19m13 19r22
+10U17*Next 10=23 22b17 34l11 34t15 58s7[46]
+10a23 X{8A12} 22b23 24r27 25r16 25r69 26m16 26r25 27r32 28m19 28r28
+11U17*Put 11>22 35b17 40l11 40t14 57s7[46]
+11a22 X{8A12} 35b22 37r19 38r34
+18i14 I{integer} 19r16 19r25
+24i14 I{integer} 25r19 25r78 26r19 26r28 27r25
+27i20 J{integer} 28r22 28r31
+37i14 I{integer} 38r37
+45I12 length{integer} 46r41
+46K12 lengths[7] 47r8
+49a4 X{8A12[46]} 55m11 55r11 57r12 58m13 58r13
+

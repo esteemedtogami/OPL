@@ -1,0 +1,16 @@
+(* this will find the [x] combination of a [set] list when taking [k] elements *)
+let combination_maccaffery set k x =
+    (* maximize function -- maximize a that is aCb              *)
+    (* return largest c where c < i and choose(c,i) <= z        *)
+    let rec maximize a b x =
+        if (choose a b ) <= x then a else maximize (a-1) b x
+    in
+    let rec iterate n x i = match i with
+        | 0 -> []
+        | i ->
+            let max = maximize n i x in
+            max :: iterate n (x - (choose max i)) (i-1)
+    in
+    if x < 0 then failwith "errors" else
+    let idxs =  iterate (List.length set) x k in
+    List.map (List.nth set) (List.sort (-) idxs)

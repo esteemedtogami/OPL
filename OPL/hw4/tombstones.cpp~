@@ -1,0 +1,16 @@
+#include "tombstones.h"
+#include <iostream>
+
+int main(int argc, char* argv[])
+{
+  int a = 1, b = 2;
+  int *p, *q;
+
+  p = &a;
+  q = &b;
+
+  std::cout << "p = " << *p << std::endl;
+  std::cout << "q = " << *q << std::endl;
+  
+  return 0;
+}

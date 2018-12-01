@@ -1,0 +1,62 @@
+/*********************
+Student: Sam Pickell
+Date: 2/07/2018
+Filename: README.txt
+**********************/
+
+Ada
+
+1. The enviorment was very easy. Using the jgrasp ide it was
+   easy enough to run working Ada code. Also Ada is very readable,
+   albeit a little intimidating.
+
+2. Trying to program in this language was difficult. As seen
+   in the function my partner and I tried to implement, even
+   though it followed the same structure as the others, it
+   was marked "non-visible". The other challenging part was
+   trying to work around variables needing to be declared
+   before the main "begin" statement. This makes user input
+   incredibly difficult to implement, though our attempted
+   function tries to address that.
+
+3. At run time, no one language seemed to be any faster or slower
+   than another. However I would believe that Ada is the least
+   efficient of all of the languages, based on its sheer length.
+
+4. Strangely enough, I like how wordy Ada is. It's fairly clear
+   what everything does just by looking at it. I feel like given
+   enough practice with the language, it would be relatively
+   straightforward. However, I greatly dislike how not beginner
+   friendly Ada is, and how you must declare all variables before
+   "main". This greatly affects user input.
+
+5. Iterators weren't used in the Ada implementation. The closest
+   thing to iteration was for loops.
+   
+----------------------------------------------------------------------------
+
+C#
+
+1. This language was a breath of fresh air compared to Ada. Having
+   both a Java and C/C++ background, this language was very
+   straightforward. It had many of the familar and useful OOP
+   tools, such as .length and iterators.
+
+2. The only hard part was adjusting to a new syntax.
+
+3. At run time, no one language seemed to be any faster or slower
+   than another.
+
+----------------------------------------------------------------------------
+
+OCaml
+
+----------------------------------------------------------------------------
+
+Prolog
+
+----------------------------------------------------------------------------
+
+Python
+
+----------------------------------------------------------------------------

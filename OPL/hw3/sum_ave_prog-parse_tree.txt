@@ -1,0 +1,49 @@
+PT_nt
+ ("P",
+  [PT_nt
+    ("SL",
+     [PT_nt ("S", [PT_term "read"; PT_id "a"]);
+      PT_nt
+       ("SL",
+        [PT_nt ("S", [PT_term "read"; PT_id "b"]);
+         PT_nt
+          ("SL",
+           [PT_nt
+             ("S",
+              [PT_id "sum"; PT_term ":=";
+               PT_nt
+                ("E",
+                 [PT_nt ("T", [PT_nt ("F", [PT_id "a"]); PT_nt ("FT", [])]);
+                  PT_nt
+                   ("TT",
+                    [PT_nt ("ao", [PT_term "+"]);
+                     PT_nt
+                      ("T", [PT_nt ("F", [PT_id "b"]); PT_nt ("FT", [])]);
+                     PT_nt ("TT", [])])])]);
+            PT_nt
+             ("SL",
+              [PT_nt
+                ("S",
+                 [PT_term "write";
+                  PT_nt
+                   ("E",
+                    [PT_nt
+                      ("T", [PT_nt ("F", [PT_id "sum"]); PT_nt ("FT", [])]);
+                     PT_nt ("TT", [])])]);
+               PT_nt
+                ("SL",
+                 [PT_nt
+                   ("S",
+                    [PT_term "write";
+                     PT_nt
+                      ("E",
+                       [PT_nt
+                         ("T",
+                          [PT_nt ("F", [PT_id "sum"]);
+                           PT_nt
+                            ("FT",
+                             [PT_nt ("mo", [PT_term "/"]);
+                              PT_nt ("F", [PT_num "2"]); PT_nt ("FT", [])])]);
+                        PT_nt ("TT", [])])]);
+                  PT_nt ("SL", [])])])])])]);
+   PT_term "$$"])
